@@ -16,7 +16,7 @@ int main()
 
 	//RV for pointer
 	int *p=&x;
-	int *rp=p;
+	int *&rp=p;
 	cout<<"p="<<*p<<endl;
 	cout<<"rp="<<*rp<<endl;
 	
