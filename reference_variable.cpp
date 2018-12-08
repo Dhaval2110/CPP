@@ -20,5 +20,6 @@ int main()
 	cout<<"p="<<*p<<endl;
 	cout<<"rp="<<*rp<<endl;
 	
+	
 
 }
