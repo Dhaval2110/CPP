@@ -15,7 +15,7 @@ int main()
 	int *p=new int[5];
 	for(int i=0;i<5;i++)
 	p[i]=i+10;
-	
+	 
 	for(int i=0;i<5;i++)
 	cout<<"p["<<i<<"]="<<p[i]<<endl;
 }
