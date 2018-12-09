@@ -2,13 +2,16 @@
 using namespace std;
 class A
 {
+	//public:                                          //public data and member functuibs canve accessed anywhere in the progrma
+ 	protected:
+	int x,y; //data members	
 	public:
-	int x,y; //data members
-	void setdata(int a,int b)
+	void setdata(int a,int b) //member functions
 	{
 		cout<<"Inside the setdata function"<<endl;
-		cout<<"enter the value of x and y"<<endl;
-		cin>>x>>y;
+		//cout<<"enter the value of x and y"<<endl;
+		A::x=a,y=b;
+		//cin>>A::x>>A::y;
 	}
 	void printdata()
 	{
