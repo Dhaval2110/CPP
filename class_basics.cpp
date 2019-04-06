@@ -3,14 +3,15 @@ using namespace std;
 class A
 {
 	//public:                                          //public data and member functuibs canve accessed anywhere in the progrma
- 	protected:
+ 	//protected:
+ 	private:
 	int x,y; //data members	
 	public:
 	void setdata(int a,int b) //member functions
 	{
 		cout<<"Inside the setdata function"<<endl;
 		//cout<<"enter the value of x and y"<<endl;
-		A::x=a,y=b;
+		A::x=a,y=b;                                  //using scope resolution operator we can access the private data
 		//cin>>A::x>>A::y;
 	}
 	void printdata()
