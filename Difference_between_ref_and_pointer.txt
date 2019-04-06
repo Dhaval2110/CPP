@@ -1,0 +1,17 @@
+What is the difference between Reference Variable and Pointer?
+
+1. Pointer
+-> Pointer can be initialized any time.
+-> A pointer can be pointed to another object anytime.
+-> Seperate memory is allocated 
+-> Pointer can be dereferenced using dereference(*) operator
+-> Makes execution slower
+-> Pointe can point to nowhere(NULL)
+
+2. Reference Variable
+-> A reference must be initialized when it is created.
+-> It can not be referred to another object or to be changed once it is initialized
+-> No seperate memory is allocated
+-> It can be dereferenced automatically
+-> It will always referred to an object (Never Null)
+-> Makes execution faster.
