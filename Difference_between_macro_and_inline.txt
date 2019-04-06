@@ -1,0 +1,15 @@
+What is the difference between inline and macro?
+1. Macro
+-> A simple insturction that explands automatically into a set of instructions to perform a perticular task.
+-> It is expanded at preprocessor stage
+-> It is an order to compiler
+-> Macro can contain any no of instructions
+-> It does not understand the scoping
+
+2. Inline function
+-> An inline function is a function that expands the function body in place of function call.
+-> It is parsed by by translater stage.
+-> It is the request to the compiler
+-> Less no of statements should inline have
+-> Inline understand the scope
+
