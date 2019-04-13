@@ -30,17 +30,18 @@ using namespace std;
 //}
 class CPP
 {
+	protected:
 	string s;
 	public:
 	void setdata(string str)
 	{
-		s=str;
+		CPP::s=str;
 	//	cout<<"enter the string";
 	//	cin>>str;
 	}
 	void printdata()
 	{
-		cout<<"string is "<<s<<endl;
+		cout<<"string is "<<CPP::s<<endl;
 	}
 };
 int main()
